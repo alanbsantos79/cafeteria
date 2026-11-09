@@ -1,117 +1,342 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>INFORBAHIA</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <title>Site 1</title>
 </head>
+
 <body>
-    <header class="header"  >
-        <div class="logo">INFOR<span>BAHIA</span></div>
-        <nav>
-            <ul class="menu"> 
-               <li><a href="#home">Inicio</a></li>
-               <li><a href="#produtos">Produtos</a></li>
-               <li><a href="#servicos">Servicos</a></li>
-               <li><a href="#sobre">Sobre</a></li>
-               <li><a href="#contato">Contato</a></li>
-            </ul>
-        </nav>
-        <button>Menu</button>
+    <header class="header">
+        <section class="header-container">
+            <div class="logo">
+                <img src="./assets/img/logo.png" alt="logo">
+            </div>
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#review">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <img width="30" height="30" src="https://img.icons8.com/material-outlined/30/ffffff/search--v1.png"
+                    alt="search--v1" />
+                <img width="30" height="30" src="https://img.icons8.com/material-sharp/30/ffffff/user.png" alt="user" />
+                <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/shopping-cart--v1.png"
+                    alt="shopping-cart--v1" />
+            </div>
+        </section>
+
     </header>
-    <main id="home">
-       <section class="hero">
-        
-        <div class="hero-texto">
-           <h1 id="texto">TI sem complicação, do jeito que a sua empresa precisa.</h1>
-           <p>Suporte técnico especializado, rápido e sem enrolação para 
-            empresas que exigem excelência e tecnologia de ponta.</p>
-            <button type="button" class="btn" >Solicitar Diagnóstico Gratuito</button>
+    <main>
+        <section class="container-hero" id="home">
+
+            <div class="conteudo-hero">
+                <div class="conteudo">
+                    <h1>Venha Conhecer o Melhor Café da Região</h1>
+                    <p>Da seleção dos melhores grãos até a extração perfeita,
+                        cada detalhe foi pensado para proporcionar uma experiência
+                        única ao seu paladar. Venha descobrir por que somos o destino
+                        favorito dos verdadeiros amantes de café.
+                        Faça nos uma visita hoje mesmo!</p>
+                    <a class="btn" href="#menu">Pegue o Seu Agora</a>
+                </div>
+            </div>
+
+        </section>
+        <section class="container-sobre" id="sobre">
+            <h2 class="title">Sobre <span>Nós</span></h2>
+
+            <div class="conteudo-sobre">
+               
+                <div class="sobre-img">
+                    <img src="./assets/img/about-img.jpg" alt="xicara-cafe">
+                </div>
+                <div class="sobre-texto">
+                    <h3>O Que Faz Nosso Café Especial</h3>
+                    <p>Mais do que servir café, nós criamos momentos.
+                        Tudo começou com uma paixão genuína por transformar
+                        grãos selecionados em experiências inesquecíveis para o seu dia a dia.
+                        Acreditamos que uma boa xícara de café tem o poder de desacelerar o tempo,
+                        despertar conversas sinceras e trazer conforto.</p>
+                    <p> Por isso, cada detalhe do
+                        nosso espaço e do nosso preparo — do aroma que toma conta do ambiente ao
+                        carinho da nossa equipe — foi pensado para fazer você se sentir em casa.
+                        Venha fazer parte dessa história. Afinal, o nosso dia só fica completo
+                        quando você está aqui.</p>
+                    <a class="btn" href="#menu">Saiba Mais</a>
+              
+                </div>
+            </div>
+        </section>
+        <section class="container-menu" id="menu">
+
+            <h2 class="title">Café em <span>Destaque</span></h2>
+
+            <div class="menu-conteudo">
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-1.png" alt="café-coado">
+                    <h3>Café Coado</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-2.png" alt="café-tasty">
+                    <h3>Tasty And Healty</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-3.png" alt="café-tasty2">
+                    <h3>Tasty And Healty</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-4.png" alt="café-tasty3">
+                    <h3>Tasty And Healty</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-5.png" alt="café-tasty4">
+                    <h3>Tasty And Healty</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+                <div class="item-menu">
+                    <img src="./assets/img/menu-6.png" alt="café-tasty5">
+                    <h3>Tasty And Healty</h3>
+                    <div class="preco">R$ 15,99 <span>R$ 20,99</span></div>
+                    <a href="#" class="btn">Adicione Ao Carrinho</a>
+                </div>
+
+
+            </div>
+
+            <a href="#" class="btn-produto">Ver Todos Produtos</a>
+
+        </section>
+        <section class="container-review" id="review">
+            <h2 class="title">Nosso <span>Clientes</span></h2>
+            <div class="conteudo-review">
+                <div class="item-review">
+                    <img src="./assets/img/quote-img.png" alt="">
+                    <blockquote>"Simplesmente o melhor café da região!
+                        Dá para sentir o cuidado na escolha dos grãos
+                        e o ponto da extração é perfeito. Sou viciado
+                        no espresso deles e sempre que posso dou uma
+                        passada lá para começar bem o dia."
+                    </blockquote>
+                    <img src="./assets/img/pic-1.png" alt="img-cliente" class="img-clientes">
+                    <p>Lucas Mendes</p>
+                    <div class="star">
+
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/windows/24/star-half-empty.png"
+                            alt="star-half-empty" />
+
+                    </div>
+                </div>
+
+
+                <div class="item-review">
+                    <img src="./assets/img/quote-img.png" alt="">
+                    <blockquote>"Encontrei o meu cantinho favorito na cidade!
+                        O ambiente é super aconchegante, ótimo para relaxar,
+                        ler um livro ou até trabalhar um pouco. Sem falar nos
+                        bolos caseiros que combinam perfeitamente com o cappuccino.
+                        Recomendo demais!"
+                    </blockquote>
+                    <img src="./assets/img/pic-2.png" alt="img-cliente" class="img-clientes">
+                    <p>Mariana Souza</p>
+                    <div class="star">
+
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/windows/24/star-half-empty.png"
+                            alt="star-half-empty" />
+
+                    </div>
+                </div>
+
+
+                <div class="item-review">
+                    <img src="./assets/img/quote-img.png" alt="">
+                    <blockquote>"Atendimento impecável e café de altíssima qualidade.
+                        A equipe é super atenciosa e sempre nos recebe com um sorriso no rosto.
+                        É o lugar perfeito para um bom papo ou para dar aquela pausa revigorante
+                        na rotina."
+                    </blockquote>
+                    <img src="./assets/img/pic-3.png" alt="img-cliente" class="img-clientes">
+                    <p>Carlos Eduardo</p>
+                    <div class="star">
+
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/material-rounded/24/star--v1.png"
+                            alt="star--v1" />
+                        <img width="24" height="24" src="https://img.icons8.com/windows/24/star-half-empty.png"
+                            alt="star-half-empty" />
+
+                    </div>
+                </div>
+
+            </div>
+
+
+        </section>
+
+        <section class="container-contato" id="contato">
+
+            <h2 class="title-contato">Venha Tomar um <span>Café Delicioso!</span></h2>
+            <p class="texto-contato">
+                Tem alguma dúvida ou quer encomendar algo especial?
+                Entre em contato com a gente!
+            </p>
+
+            <div class="contato-grid">
+
+                <div class="contato-info-box">
+                    <div class="box">
+                        <h3>Informações</h3>
+                        <p><span>Endereço:</span> Rua do café nº 180, Centro - Salvador-Bahia</p>
+                        <p><span>Horário:</span> Seg. a Sex. das 08h às 20h / Sáb. 09h às 13h</p>
+                        <p><span>Email:</span> contato@aromacafe.com.br</p>
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31112.23189054537!2d-38.36504874391708!3d-12.905857658780496!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71617f51fce8c39%3A0xfbb7e82a15aaa5c8!2sCafeteria%20Mais1.Caf%C3%A9%20-%20Hangar!5e0!3m2!1spt-BR!2sbr!4v1794103431212!5m2!1spt-BR!2sbr"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <a href="https://wa.me/5500000000000?text=Olá!%20Vim%20pelo%20site%20e%20gostaria%20de%20mais%20informações."
+                        target="_blank" class="btn-contato">
+                        Chamar no Whatsapp
+                    </a>
+
+                </div>
+
+                <div class="contato-form-box">
+                    <h3>Envie uma Mensagem</h3>
+                    <form action="#" method="post">
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" id="nome" name="nome" placeholder="Informe seu nome" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="mensagem">Mensagem</label>
+                            <textarea name="mensagem" id="mensagem"
+                                placeholder="Escreva sua dúvida ou pedido..."></textarea>
+
+                        </div>
+                        <button type="submit" class="btn-mensagem">Enviar Mensagem</button>
+
+                    </form>
+
+                </div>
+
+
+
+            </div>
+    </section>
+
+    </main>
+    <footer class="footer">
+
+        <div class="footer-itens">
+
+            <nav>
+                <h4>Links Rápidos</h4>
+                <ul class="menu-footer">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#menu">Menu</a></li>
+                    <li><a href="#review">Avaliações</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+
+            </nav>
+
+            <div class="fale-conosco">
+                <h4>Fale Conosco</h4>
+                <ul class="footer-contato">
+                    <li>
+
+                        <p><span>Endereço:</span> Rua do café, 180</p>
+                    </li>
+                    <li>
+
+                        <p><span>Whatsapp:</span> (71) 0000-0000</p>
+                    </li>
+                    <li>
+
+                        <p><span>E-mail:</span> contato@aromacafe.com.br</p>
+                    </li>
+
+                </ul>
+
+            </div>
+
+            <div class="footer-rede-socias">
+                <h4>Siga nas redes sociais</h4>
+                <div class="box-rede-socias">
+                    <img width="30" height="30" src="https://img.icons8.com/material-rounded/30/ffffff/facebook-new.png"
+                        alt="facebook-new" />
+                    <img width="30" height="30" src="https://img.icons8.com/ios-glyphs/30/ffffff/instagram-new.png"
+                        alt="instagram-new" />
+                    <img width="30" height="30" src="https://img.icons8.com/material-rounded/30/ffffff/twitterx--v1.png"
+                        alt="twitterx--v1" />
+                </div>
+            </div>
+
 
         </div>
 
+        <p class="text">&copy; 2026 Cafeteria. Todos os direitos reservados.</p>
 
-       </section>
-       <section class="containe-servicos" id="servicos">
-           
-          <h2>CONHEÇA NOSSOS SERVIÇOS</h2>
-
-          <div class="itens-servicos">
-
-            <div class="servico">
-               
-                <h3>Suporte Técnico Remoto e Presencial</h3>
-                <div class="imagem">
-                    <img src="https://tse4.mm.bing.net/th/id/OIP.JrhZQZYTl91ri27ZBo8AwQHaEI?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" alt="suporte-presencial">
-                    <p>Resolução rápida de falhas em computadores, notebooks e periféricos.</p>
-                </div>
-
-            </div>
-
-            <div class="servico">
-               
-                <h3>Help Desk / Service Desk</h3>
-                <div class="imagem">
-                    <img src="https://ctctech.com.br/wp-content/uploads/2025/11/Help-Desk-vs-Service-Desk-diferencas-2-1024x683.jpg" alt="help-desk">
-                    <p>Atendimento estruturado por chamados para empresas, com níveis de serviço (SLA) definidos.</p>
-                </div>
-
-            </div>
-
-
-             <div class="servico">
-               
-                <h3>Cabeamento Estruturado</h3>
-                <div class="imagem">
-                    <img src="https://solucoes.brother.com.br/hubfs/Dicas%20para%20montar%20um%20sistema%20de%20cabeamento%20estruturado.jpg#keepProtocol" alt="cabeamento-estruturado">
-                    <p>Instalação e organização de redes locais (LAN) e configuração de redes Wi-Fi de alta performance.</p>
-                </div>
-                </div>
-
-                    <div class="servico">
-               
-                <h3>Backup em Nuvem Automatizado</h3>
-                <div class="imagem">
-                    <img src="https://kitcyber.com/wp-content/uploads/2020/01/14587-01-1504x1128-1.jpg" alt="backup-nuvens">
-                    <p>Resolução rápida de falhas em computadores, notebooks e periféricos.</p>
-                </div>
-
-            </div>
-
-            <div class="servico">
-               
-                <h3>Proteção contra Ransomware e Vírus</h3>
-                <div class="imagem">
-                    <img src="https://glmtec.com.br/wp-content/uploads/2023/11/83b989b4-64ad-4b2d-9203-bcb3b9d33f1c.jpg" alt="antivirus">
-                    <p>Implementação de antivírus corporativos, políticas de segurança e controle de acesso.</p>
-                </div>
-
-            </div>
-
-
-             <div class="servico">
-               
-                <h3>Gestão de Acessos e Usuários</h3>
-                <div class="imagem">
-                    <img src="https://s.criacaostatic.cc/wisertecnologiajrda5ejn/uploads/2025/04/923-1.jpg" alt="cabeamento-estruturado">
-                    <p>Controle de permissões e segurança nas plataformas em nuvem.</p>
-                </div>
-                </div>
-                
-
-
-          </div>
-           
-
-       </section>
-
-
-    </main>
-    <footer>
-        Todos os diretos são reservados 2026
     </footer>
+    <a href="https://wa.me/5511999999999" class="whatsapp-float" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp">
+    </a>
 
 </body>
- <script src="assets/js/script.js"></script>
+<script src="./assets/js/script.js"></script>
+
 </html>
